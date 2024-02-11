@@ -1,7 +1,7 @@
 # my vscode settings
 
 ### theme
-color theme: Bearded Theme Surprising Watermelon
+color theme: Bearded Theme Surprising Watermelon, 
 icon theme: Material Icon Theme
 
 ### extensions
