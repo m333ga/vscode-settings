@@ -2,7 +2,7 @@
 
 ### theme
 color theme: Bearded Theme Surprising Watermelon, 
-file icon theme: Material Icon Theme
+file icon theme: Material Icon Theme, 
 product icon theme: Tabler Product Icons
 
 ### extensions
