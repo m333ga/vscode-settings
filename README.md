@@ -2,7 +2,8 @@
 
 ### theme
 color theme: Bearded Theme Surprising Watermelon, 
-icon theme: Material Icon Theme
+file icon theme: Material Icon Theme
+product icon theme: Tabler Product Icons
 
 ### extensions
 Auto Rename Tag,
