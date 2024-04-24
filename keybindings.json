@@ -1,0 +1,51 @@
+[
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  },
+
+  {
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder"
+  },
+
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction"
+  },
+
+  {
+    "key": "cmd+d",
+    "command": "editor.action.copyLinesDownAction"
+  },
+
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.deleteLines"
+  },
+
+  {
+    "key": "cmd+q",
+    "command": "editor.action.deleteLines"
+  },
+
+  {
+    "key": "ctrl+shift+l",
+    "command": "selectNextSuggestion"
+  },
+
+  {
+    "key": "cmd+shift+l",
+    "command": "selectNextSuggestion"
+  }
+]
