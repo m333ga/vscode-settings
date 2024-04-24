@@ -1,9 +1,9 @@
 # my vscode settings
 
 ### theme
-**color theme**: Bearded Theme Surprising Watermelon, 
+**color theme**: Shades of Purple, 
 **file icon theme**: Material Icon Theme, 
-**product icon theme**: Tabler Product Icons
+**product icon theme**: Tabler Icons
 
 ### extensions
 Auto Rename Tag,
