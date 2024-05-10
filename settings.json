@@ -1,81 +1,100 @@
 {
-  "update.mode": "none",
-  "workbench.sideBar.location": "right",
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
-  "git.openRepositoryInParentFolders": "never",
-  "editor.cursorStyle": "line",
-
-  // my
-  "editor.folding": false,
+  //   Editor settings
   "editor.tabSize": 4,
   "editor.detectIndentation": false,
   "editor.linkedEditing": true,
   "editor.glyphMargin": false,
-  "workbench.activityBar.location": "top",
-  "terminal.integrated.fontSize": 13,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderWhitespace": "none",
+  "workbench.editor.enablePreview": false,
+
+  //   Explorer settings
   "explorer.confirmDelete": false,
-  "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
-  "workbench.editor.tabSizing": "shrink",
+  "explorer.confirmPasteNative": false,
+  "workbench.tree.renderIndentGuides": "none",
+
+  //   Appearance
+  "workbench.colorTheme": "Shades of Purple",
+  "window.zoomLevel": 0.7,
+  //   text
+  "editor.fontSize": 13.5,
+  "editor.fontFamily": "'Roboto Mono Regular'",
+  // terminal
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.tabs.showActions": "never",
+  "terminal.integrated.tabs.enableAnimation": false,
+  //   icons
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "Tabler",
+  //   cursor
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  // workspace
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "editor.minimap.enabled": false,
+  "editor.folding": false,
+  "workbench.editor.tabSizing": "fit",
   "workbench.startupEditor": "none",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  //   explorer
+  "explorer.compactFolders": false,
+  //   breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  //   Optimize
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.smoothScrolling": false,
+  "workbench.reduceMotion": "on",
+  "update.mode": "none",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "disable-hardware-acceleration": true,
+
+  //   Git
+  "git.enabled": false,
+  "git.enableSmartCommit": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  // Jupyter
+  "jupyter.askForKernelRestart": false,
 
   // html
   "html.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "typescript.autoClosingTags": true,
-
-  "editor.quickSuggestionsDelay": 0,
-  "git.enableSmartCommit": true,
-  "explorer.confirmPasteNative": false,
-  "editor.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "git.enabled": false,
-
-  // bread
-  "breadcrumbs.enabled": false,
-  "jupyter.askForKernelRestart": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.shell.windows": "E:\\Programs\\Hyper Terminal\\Hyper.exe",
-  "arduino.useArduinoCli": true,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.tabSize": 4
-  },
   "liveServer.settings.donotShowInfoMsg": true,
-  "cSpell.enabled": true,
+
+  //   css
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
-  "cSpell.userWords": ["AAGN", "aiogram", "femboy", "Monserrat"],
-  "terminal.integrated.env.windows": {},
+
+  //   js
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
-  "terminal.integrated.env.osx": {},
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+
+  //   json
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
-  "workbench.productIconTheme": "Tabler",
-  "editor.renderWhitespace": "none",
-  "workbench.colorTheme": "Shades of Purple",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  "editor.fontSize": 14,
-
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
-  "workbench.tree.renderIndentGuides": "none"
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.tabSize": 4
+  }
 }
