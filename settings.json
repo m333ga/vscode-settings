@@ -7,23 +7,28 @@
   "editor.quickSuggestionsDelay": 0,
   "editor.renderWhitespace": "none",
   "workbench.editor.enablePreview": false,
+  "window.density.editorTabHeight": "compact",
+  "editor.showFoldingControls": "never",
 
   //   Explorer settings
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
   "workbench.tree.renderIndentGuides": "none",
+  "editor.guides.indentation": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderLineHighlight": "none",
 
   //   Appearance
   "workbench.colorTheme": "Shades of Purple",
-  "window.zoomLevel": 0.7,
+  "window.zoomLevel": 0.5,
   //   text
-  "editor.fontSize": 13.5,
+  "editor.fontSize": 13,
   "editor.fontFamily": "'Roboto Mono Regular'",
   // terminal
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontFamily": "Consolas",
-  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.cursorStyleInactive": "outline",
   "terminal.integrated.tabs.showActions": "never",
   "terminal.integrated.tabs.enableAnimation": false,
   //   icons
@@ -38,31 +43,33 @@
   "editor.minimap.enabled": false,
   "editor.folding": false,
   "workbench.editor.tabSizing": "fit",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "newUntitledFile",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": true,
+  //   ruler
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  //   window
+  "window.title": " ",
   //   explorer
   "explorer.compactFolders": false,
   //   breadcrumbs
   "breadcrumbs.enabled": false,
 
   //   Optimize
-  "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.smoothScrolling": false,
   "workbench.reduceMotion": "on",
-  "update.mode": "none",
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10000,
-  "disable-hardware-acceleration": true,
 
   //   Git
   "git.enabled": false,
   "git.enableSmartCommit": false,
   "git.openRepositoryInParentFolders": "never",
-
-  // Jupyter
-  "jupyter.askForKernelRestart": false,
 
   // html
   "html.autoClosingTags": true,
