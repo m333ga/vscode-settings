@@ -30,7 +30,7 @@
   },
 
   {
-    "key": "ctrl+q",
+    "key": "alt+q",
     "command": "editor.action.deleteLines"
   },
 
@@ -47,5 +47,25 @@
   {
     "key": "cmd+shift+l",
     "command": "selectNextSuggestion"
+  },
+
+  {
+    "key": "alt+f",
+    "command": "editor.action.formatDocument"
+  },
+
+  {
+    "key": "super+n",
+    "command": "workbench.action.newWindow"
+  },
+
+  {
+    "key": "win+n",
+    "command": "workbench.action.newWindow"
+  },
+
+  {
+    "key": "cmd+n",
+    "command": "workbench.action.newWindow"
   }
 ]
