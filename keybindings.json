@@ -55,7 +55,7 @@
   },
 
   {
-    "key": "super+n",
+    "key": "alt+shift+n",
     "command": "workbench.action.newWindow"
   },
 
@@ -65,7 +65,7 @@
   },
 
   {
-    "key": "cmd+n",
+    "key": "alt+n",
     "command": "workbench.action.newWindow"
   }
 ]
